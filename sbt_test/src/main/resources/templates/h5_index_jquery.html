@@ -1,0 +1,284 @@
+<html>
+<head xmlns:th="http://www.thymeleaf.org">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" type="text/css" media="all" href="../static/css/style.css" th:href="@{/css/style.css}"/>
+    <script type="text/javascript" src="../static/js/jquery-3.3.1.js" th:src="@{/js/jquery-3.3.1.js}"></script>
+    <script type="text/javascript" src="../static/js/js_learn_jquery.js" th:src="@{/js/js_learn_jquery.js}"></script>
+    <title>jquery学习</title>
+    <script>
+        $(function () { // 表示文档加载
+            js_test_jqeury();
+        });
+    </script>
+</head>
+<body>
+<button id="b1">hide button</button>
+<button id="b2">show button</button>
+<div id="d">一段div...</div>
+<hr/>
+
+
+<input type="text" id="t_value" value="默认文本default text"/>
+<button id="b_get_value">取值</button>
+<hr/>
+
+
+<div id="d_value">
+    div内容区域[div1]
+    <span>span区域内容</span>
+</div>
+<button id="b_get_all_value_dot_html">获取文本内容.html</button>
+<button id="b_get_all_value_dot_text">获取文本内容.text</button>
+<hr/>
+
+
+<button id="b_add_color">增加背景色</button>
+<button id="b_remove_color">删除背景色</button>
+<button id="b_toggle_color">切换背景色</button>
+<button id="b_add_class_single">添加单一样式</button>
+<button id="b_add_class_multi">添加多重样式</button>
+<hr/>
+
+
+<div class="div_1">hello div11...[div2]</div>
+<div class="div_1">hello div12..[div3]</div>
+<div id="id_div_3">hello div22...[div4]<span>
+        这段为span的内容...
+    </span></div>
+<button id="b_selection_tag_name">$("tagName")</button>
+<button id="b_selection_class_name">$(".className")</button>
+<button id="b_selection_selector_selector">$("selector1 selector2")</button>
+<button id="b_selection_first">第一个div增加背景色</button>
+<button id="b_selection_last">最后一个div增加背景色</button>
+<button id="b_selection_odd">基数div增加背景色</button>
+<button id="b_selection_even">偶数一个div增加背景色</button>
+<button id="b_selection_hide_visible">隐藏可见的div</button>
+<button id="b_selection_show_visible">显示不可见的div</button>
+<hr/>
+
+
+<div id="pink">id=pink的div</div>
+<div id="green">id=green的div</div>
+<div>没有id属性的div</div>
+<br/>
+<button id="b_attr_1">给有id属性的div切换边框</button>
+<button id="b_attr_2">给id=pink的div切换边框</button>
+<button id="b_attr_3">给有id!=pink属性的div切换边框</button>
+<button id="b_attr_4">给有id以p开头的div切换边框</button>
+<button id="b_attr_5">给有id以k结尾的div切换边框</button>
+<button id="b_attr_6">给有id包含ee的div切换边框</button>
+<hr/>
+
+
+<table>
+    <tr>
+        <td rowspan="13" valign="top" width="150px">
+            <div>
+                <button value=":input" class="b">切换所有的:input</button>
+                <button value=":button" class="b">切换:button</button>
+                <button value=":radio" class="b">切换:radio</button>
+                <button value=":checkbox" class="b">切换:checkbox</button>
+                <button value=":text" class="b">切换:text</button>
+                <button value=":password" class="b">切换:password</button>
+                <button value=":file" class="b">切换:file</button>
+                <button value=":submit" class="b">切换:submit</button>
+                <button value=":image" class="b">切换:image</button>
+                <button value=":reset" class="b">切换:reset</button>
+            </div>
+        </td>
+        <td width="120px">说明</td>
+        <td width="120px">表单对象</td>
+        <td width="">示例</td>
+    </tr>
+    <tr>
+        <td>input按钮</td>
+        <td>:button</td>
+        <td><input type="button" value="input按钮"/></td>
+    </tr>
+    <tr>
+        <td>button按钮</td>
+        <td>:button</td>
+        <td>
+            <button>Button按钮</button>
+        </td>
+    </tr>
+    <tr>
+        <td>单选框</td>
+        <td>:radio</td>
+        <td><input type="radio"/></td>
+    </tr>
+    <tr>
+        <td>复选框</td>
+        <td>:checkbox</td>
+        <td><input type="checkbox"/></td>
+    </tr>
+    <tr>
+        <td>文本框</td>
+        <td>:text</td>
+        <td><input type="text"/></td>
+    </tr>
+    <tr>
+        <td>文本域</td>
+        <td></td>
+        <td><textarea></textarea></td>
+    </tr>
+    <tr>
+        <td>密码框</td>
+        <td>:password</td>
+        <td><input type="password"/></td>
+    </tr>
+    <tr>
+        <td>下拉框</td>
+        <td></td>
+        <td><select>
+            <option>Option</option>
+        </select></td>
+    </tr>
+    <tr>
+        <td>文件上传</td>
+        <td>:file</td>
+        <td><input type="file"/></td>
+    </tr>
+    <tr>
+        <td>提交按钮</td>
+        <td>:submit</td>
+        <td><input type="submit"/></td>
+    </tr>
+    <tr>
+        <td>图片型提交按钮</td>
+        <td>:image</td>
+        <td><input type="image" src="http://how2j.cn/example.gif"/></td>
+    </tr>
+    <tr>
+        <td>重置按钮</td>
+        <td>:reset</td>
+        <td><input type="reset"/></td>
+    </tr>
+</table>
+<hr/>
+
+
+<table>
+    <tr>
+        <td rowspan="13" valign="top" width="120">
+            <div>
+                <button value=":enabled" class="b1">切换:enabled</button>
+                <button value=":disabled" class="b1">切换:disabled</button>
+                <button value=":checked" class="b1">切换:checked</button>
+                <button value=":selected" class="b2">:selected数量</button>
+            </div>
+        </td>
+        <td width="120">说明</td>
+        <td width="120">表单对象属性</td>
+        <td width="100px">示例</td>
+    </tr>
+    <tr>
+        <td>enabled的按钮</td>
+        <td>:enabled</td>
+        <td><input type="button" enabled="enabled" value="enabled的按钮"/></td>
+    </tr>
+    <tr>
+        <td>disabled的按钮</td>
+        <td>:disabled</td>
+        <td><input type="button" disabled="disabled" value="disabled的按钮"/></td>
+    </tr>
+    <td>选中的复选框</td>
+    <td>:checked</td>
+    <td>
+        <input type="radio" checked="checked"/><br/>
+        <input type="radio"/><br/>
+        <input type="checkbox"/><br/>
+        <input type="checkbox" checked="checked"/>
+    </td>
+    <tr>
+        <td>选中的下拉列表</td>
+        <td>:selected</td>
+        <td>
+            <select size="3" multiple="multiple">
+                <option selected="selected">苍老师</option>
+                <option>高树玛利亚</option>
+                <option selected="selected">遥美</option>
+            </select>
+        </td>
+    </tr>
+</table>
+<hr/>
+<button id="b_this">设置当前元素样式</button>
+<hr/>
+
+<div id="div_grand_parent">grand_parent
+    <div id="div_parent">parent
+        <div id="div_child">child
+            <div id="div_son">son
+                <div id="div_grand_son">grand_son</div>
+            </div>
+        </div>
+    </div>
+</div>
+<button id="b_filter_1">切换first()第一个div背景色</button>
+<button id="b_filter_2">切换last()最后一个div背景色</button>
+<button id="b_filter_3">切换eq(num)第三个div背景色</button>
+<br/>
+<button id="b_filter_parent">改变parent()样式</button>
+<button id="b_filter_parents">改变parents()样式</button>
+<button id="b_filter_child">改变children()样式</button>
+<button id="b_filter_find">改变find()样式</button>
+<button id="b_filter_siblings">改变同级元素siblings()样式</button>
+<hr/>
+
+
+<h1 id="h1_1" align="center" game="lol">标题111111</h1>
+<button id="b_attr_01">获取h1的align属性</button>
+<button id="b_attr_02">获取h1的自定义属性game</button>
+<button id="b_attr_03">修改h1的align属性值</button>
+<button id="b_attr_04">删除h1的align属性值</button>
+<br/>
+<input type="checkbox" id="checkbox" game="lol" checked="checked"/>lol--
+<button id="b_attr_05">通过attr获取自定义属性 game</button>
+<button id="b_attr_06">通过prop获取自定义属性 game</button>
+<button id="b_attr_07">通过attr获取 checked属性</button>
+<button id="b_attr_08">通过prop获取 checked属性</button>
+<hr/>
+
+
+<div id="div_effect" style="background-color:pink; width:200px; height:80px; font-size:12px; position:relative;">
+    用于演示效果的DIV
+</div>
+<button id="b_effect_1">向上滑动</button>
+<button id="b_effect_2">向下滑动</button>
+<button id="b_effect_3">滑动切换</button>
+<button id="b_effect_4">延时向上滑动</button>
+<button id="b_effect_5">延时向下滑动</button>
+<button id="b_effect_6">延时滑动切换</button>
+<br/>
+<button id="b_effect_21">淡出</button>
+<button id="b_effect_22">淡入</button>
+<button id="b_effect_23">淡入淡出切换</button>
+<button id="b_effect_24">延时淡出</button>
+<button id="b_effect_25">延时淡入</button>
+<button id="b_effect_26">延时滑淡入淡出切换</button>
+<button id="b_effect_27">fadeTo(num)</button>
+<br/>
+<button id="b_anim">自定义动画</button>
+<button id="b_anim_callback">自定义动画带结束回调</button>
+<hr/>
+对象转换：
+<button id="b_object_1">jquery转dom</button>
+<button id="b_object_2">dom转jquery</button>
+<hr/>
+
+
+ajax--->输入账号：<input type="text" id="name_ajax" name="name" onkeyup="check()"/>
+<input type="text" id="name_get" name="name" onkeyup="check()"/>
+<input type="text" id="name_post" name="name" onkeyup="check()"/>
+<input type="text" id="name_easy" name="name" onkeyup="check()"/>
+<span id="span_check_result"></span><br/>
+<a id="a_test" href="http://how2j.cn/study/checkName.jsp">http://catface.cc</a>
+<form id="form_test">
+    输入账号 :<input id="form_name" type="text" name="name"/> <br/>
+    输入年龄 :<input id="form_age" type="text" name="age"/> <br/>
+    输入手机号码 :<input id="form_mobile" type="text" name="mobile"/> <br/>
+
+</form>
+</body>
+</html>

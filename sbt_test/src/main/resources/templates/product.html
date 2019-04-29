@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>product</title>
+    <link rel="stylesheet" type="text/css" media="all" href="../static/css/style.css" th:href="@{/css/style.css}"/>
+    <script type="text/javascript" src="../static/js/thy.js" th:src="@{/js/thy.js}"></script>
+
+    <style>
+        h2 {
+            text-decoration: underline;
+            font-size: 0.9em;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+
+<!-- 条件判断 -->
+<div class="showing">
+    <h2>条件判断</h2>
+    <p th:if="${flag}">true就会显示本行</p>
+    <p th:if="${not flag}">非true显示本行</p>
+    <p th:unless="${flag}">非true显示本行</p>
+    <p th:text="${flag}?'true显示这个':'非true显示这个'"></p>
+</div>
+
+
+<!-- 表达式 -->
+<hr/>
+<div class="showing">
+    <h2>显示 转义和非转义的 html文本</h2>
+    <p th:text="${html}"></p>
+    <p th:utext="${html}"></p>
+</div>
+
+<div class="showing">
+    <h2>显示对象以及对象属性</h2>
+    <p th:text="${product}"></p>
+    <p th:text="${product.getName()}"></p>
+    <p th:text="${product.getPrice()}"></p>
+</div>
+
+<div class="showing" th:object="${product}">
+    <h2>*{}方式显示属性</h2>
+    <p th:text="*{name}"></p>
+</div>
+
+<div class="showing">
+    <h2>算术运算</h2>
+    <p th:text="${product.getPrice() + 2}"></p>
+</div>
+
+
+<!-- 遍历 -->
+<hr/>
+<table>
+    <thead>
+    <tr>
+        <td>id</td>
+        <td>产品名</td>
+        <td>价格</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="p:${products}">
+        <td th:text="${p.getId()}"></td>
+        <td th:text="${p.getName()}"></td>
+        <td th:text="${p.getPrice()}"></td>
+    </tr>
+    </tbody>
+</table>
+<hr/>
+<table>
+    <thead>
+    <tr>
+        <th>index</th>
+        <th>id</th>
+        <th>产品名</th>
+        <th>价格</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="p,status:${products}" th:class="${status.even}?'even':'odd'">
+        <td th:text="${status.index}"></td>
+        <td th:text="${p.getId()}"></td>
+        <td th:text="${p.getName()}"></td>
+        <td th:text="${p.getPrice()}"></td>
+    </tr>
+    </tbody>
+</table>
+<hr/>
+<select size="4">
+    <option th:each="p:${products}" th:value="${p.getId()}" th:selected="${p.getId()==product.getId()}" th:text="${p.getName()}"></option>
+</select>
+<hr/>
+<input th:each="p:${products}" name="product" type="radio" th:value="${p.getId()}" th:checked="${p.getId()==product.getId()}" th:text="${p.getName()}"/>
+
+
+<!-- 包含 -->
+<div class="showing">
+    <div th:replace="copyrights::footer1"></div>
+    <div th:replace="copyrights::footer2(1993,2018)"></div>
+</div>
+
+</body>
+</html>

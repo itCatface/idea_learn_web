@@ -1,0 +1,31 @@
+{
+    "code":200,
+    "data":[
+        {
+            "acctid":"11410007221104",
+            "acctidno":"11310008177731",
+            "acctname":"＊＊胜",
+            "accttype":"0",
+            "accttypename":"个人",
+            "attachcustid":"11320000513717",
+            "brandname":"全球通",
+            "custname":"＊＊胜",
+            "grouptype":"",
+            "phoneno":"18715516646"
+        },
+        {
+            "acctid":"11410023023481",
+            "acctidno":"11310008177731",
+            "acctname":"＊＊胜",
+            "accttype":"2",
+            "accttypename":"家庭",
+            "attachcustid":"11320000513717",
+            "brandname":"无品牌",
+            "custname":"＊＊胜",
+            "grouptype":"",
+            "phoneno":"11310022663743"
+        }
+    ],
+    "isLeaf":true,
+    "message":"操作成功"
+}

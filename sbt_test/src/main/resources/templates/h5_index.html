@@ -1,0 +1,194 @@
+<html>
+<head xmlns:th="http://www.thymeleaf.org">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <script type="text/javascript" src="../static/js/js_learn.js" th:src="@{/js/js_learn.js}"></script>
+
+    <!-- javascript代码必须放在<script></script>标签内 | <script>标签一般放在<head>内 -->
+    <script>
+        function hello_js() {
+            js_hello_js()
+        }
+
+
+        /* 简单的计算器功能 */
+        function simple_calc(x, y) {
+            var x1 = Number(x), y1 = Number(y), result;
+            var obj = document.getElementById("simple_calc_fun");
+            var index = obj.selectedIndex;
+            var calc = obj.options[index].value;
+            console.log("x / y: " + x + " / " + y + " -- " + calc);
+            switch (calc) {
+                case "+":
+                    result = x1 + y1;
+                    break;
+                case "-":
+                    result = x1 - y1;
+                    break;
+                case "*":
+                    result = x1 * y1;
+                    break;
+                case "/":
+                    result = x1 / y1;
+                    break;
+                case "%":
+                    result = x1 % y1;
+                    break;
+            }
+            document.getElementById("num_result").value = result;
+        }
+
+
+        function baseDataType() {
+            js_base_data_type();
+        }
+
+
+        function typeChange() {
+            js_type_change();
+        }
+
+
+        function testFor() {
+            js_test_for();
+        }
+
+
+        function testTry() {
+            js_test_try();
+        }
+
+
+        function testNumber() {
+            js_test_number();
+        }
+
+
+        function simple_calc_x(x1, x2) {
+            document.getElementById('x_result').value = (x1 * x2).toExponential();
+        }
+
+
+        function testString() {
+            js_test_string();
+        }
+
+
+        function testArray() {
+            js_test_array();
+        }
+
+
+        function testDate() {
+            js_test_date();
+        }
+
+
+        function testMath() {
+            js_test_math();
+        }
+
+
+        function testWindow() {
+            js_test_window();
+        }
+
+
+        function testNavigator() {
+            js_test_navigator();
+        }
+
+
+        function testScreen() {
+            js_test_screen();
+        }
+
+
+        function testTimer() {
+            js_test_timer();
+        }
+
+
+    </script>
+</head>
+<body>
+<p>welcome my JavaScript learning process~~~</p>
+
+
+<!-- 点击事件 -->
+<button type="button" onclick="hello_js()">Hello JavaScript</button>
+<hr/>
+
+
+<!-- js&dom控制元素的显示隐藏 -->
+<p id="hidden_text_1">该文本可被javascript隐藏</p>
+<button type="button" onclick="document.getElementById('hidden_text_1').style.display='none'">隐藏该文本</button>
+<button type="button" onclick="document.getElementById('hidden_text_1').style.display='block'">显示该文本</button>
+<hr/>
+
+
+<!-- 简单计算器 -->
+<input type="text" id="num_x" style="width: 50px; text-align: center"/>
+<select id="simple_calc_fun">
+    <option value="+" selected="selected">+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+    <option value="%">%</option>
+</select>
+<input type="text" id="num_y" style="width: 50px; text-align: center"/> =
+<input type="text" id="num_result" style="width: 50px; text-align: center"/>
+<button type="button" style="margin-left: 20px" onclick="simple_calc(document.getElementById('num_x').value, document.getElementById('num_y').value)">运算</button>
+
+<hr/>
+<button type="button" style="border: gray;margin-left: 20px" onclick="baseDataType()">基本数据类型</button>
+<button type="button" style="border: gray;margin-left: 20px" onclick="typeChange()">类型转换</button>
+
+<hr/>
+<button type="button" style="border: gray;margin-left: 20px" onclick="testFor()">循环语句</button>
+
+<hr/>
+<button type="button" style="border: gray;margin-left: 20px" onclick="testTry()">异常捕获</button>
+<hr/>
+
+<!-- js中的对象 -->
+<button type="button" style="border: gray; margin-left: 20px" onclick="testNumber()">对象-->Number</button>
+<br/>
+<input type="text" id="x_1" style="width: 50px; text-align: center; margin-left: 20px" maxlength="20"/> *
+<input type="text" id="x_2" style="width: 50px; text-align: center" maxlength="20"/> =
+<input type="text" id="x_result" style="width: 50px; text-align: center" maxlength="20"/>
+<button type="button" style="border: gray; margin-left: 20px" onclick="simple_calc_x(document.getElementById('x_1').value, document.getElementById('x_2').value)">运算</button>
+<br/>
+
+
+<button type="button" style="border: gray; margin-left: 20px; margin-top: 20px" onclick="testString()">对象-->String</button>
+<button type="button" style="border: gray; margin-left: 20px; margin-top: 20px" onclick="testArray()">对象-->Array</button>
+<button type="button" style="border: gray; margin-left: 20px; margin-top: 20px" onclick="testDate()">对象-->Date</button>
+<button type="button" style="border: gray; margin-left: 20px; margin-top: 20px" onclick="testMath()">对象-->Math</button>
+<hr/>
+
+
+<!-- js中的BOM -->
+<button type="button" style="border: gray; margin-left: 20px; margin-top: 20px" onclick="testWindow()">BOM-->Window</button>
+<button type="button" style="border: gray; margin-left: 20px; margin-top: 20px" onclick="testNavigator()">BOM-->Navigator</button>
+<button type="button" style="border: gray; margin-left: 20px; margin-top: 20px" onclick="testScreen()">BOM-->Screen</button>
+<button type="button" style="border: gray; margin-left: 20px; margin-top: 20px" onclick="testTimer()">BOM-->计时器</button>
+<hr/>
+
+
+<!-- js中的DOM -->
+<div id="d1" class="clz1">hello DOM!(d1)</div>
+<div id="d2" class="clz1">hello DOMM!(d1)</div>
+<div id="d3" class="clz1" align="center">hello DOMMM!(d1)</div>
+用户名：<input name="username"/><br/>
+密码：<input name="password"/>
+
+</body>
+<script>
+    /* DOM */
+    js_test_node_concept();
+    document.write('<hr/>');
+
+    js_test_node_get();
+</script>
+</html>

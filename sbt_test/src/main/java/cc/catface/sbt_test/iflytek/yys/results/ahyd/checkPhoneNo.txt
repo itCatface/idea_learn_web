@@ -1,0 +1,24 @@
+{
+    "code":200,
+    "message":"操作成功",
+    "data":{
+        "viewData":{
+            "CODE_NAME":"",
+            "BRAND_ID":"003",
+            "ACCESS_TYPE":"001",
+            "BRAND_NAME":"神州行",
+            "FREE_FLAG":"N",
+            "CUST_NAME":"＊＊佳",
+            "NEW_FREE_FLAG":"N",
+            "PHONE_NO":"18855182402",
+            "PROD_PRC_NAME":"4G飞享18元（2018版）",
+            "ISMAIN_FLAG":"N",
+            "ACCESS_NAME":"4GUSIM卡",
+            "RUN_CODE":"A",
+            "TYPE_CODE":"001",
+            "BALANCE_FEE":"9100.00"
+        },
+        "oldSimNo":"898600B51225F5142433"
+    },
+    "isLeaf":true
+}

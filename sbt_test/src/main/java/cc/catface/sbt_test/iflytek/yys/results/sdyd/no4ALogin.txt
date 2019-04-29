@@ -1,0 +1,106 @@
+{
+    "message": "操作成功",
+    "code": "0",
+    "data": {
+        "rc": "0",
+        "userInfo": "TE4Zp+SCkrCIRqD2VgVb3f9N6cwbYfHr7wsHXy2C7Y47aiIQa8fRdSd1EEquumcRkWw8DM5jCXqmG9clnSDwuafju4NaNvaOIM29JXUJWD7fheAj61CCabZ1UUKN53qAVJ730kuabNILEl4EV7ra7/76WLcVN5WGlD6c3X8IymyZR6sqkWt1wr3rRg2YteXJY2S3BFUzKkMptvIs/1fkHwbdYYMRVEsjj6Mol+Gf8UCljPkq8JP2TpFGoskJcZnT",
+        "homeBusType": [
+            {
+                "busType": "自助开卡",
+                "hidden": false
+            },
+            {
+                "busType": "套卡激活",
+                "hidden": false
+            },
+            {
+                "busType": "宽带预约",
+                "hidden": false
+            },
+            {
+                "busType": "补换卡",
+                "hidden": false
+            },
+            {
+                "busType": "统一支付",
+                "hidden": false
+            },
+            {
+                "busType": "充值送",
+                "hidden": false
+            },
+            {
+                "busType": "查询",
+                "hidden": false
+            },
+            {
+                "busType": "新生大礼包",
+                "hidden": false
+            }
+        ],
+        "packageList": [
+            {
+                "id": 4,
+                "mainpriv": "pp.gt.fybxl_new.pre",
+                "mainPrivName": "新飞跃不限量套餐1",
+                "gsm": "100分钟",
+                "gprs": "流量不限量",
+                "package_message": "1.\t当月使用流量达到10GB限速阈值后，上网速率降至1Mbps以下，次月恢复。当月流量 达100GB后，上网速率降至128Kbps以下，次月恢复。\n2.\t本套餐原价78元/月，新入网体验期（前12个月）48元/月，12个月后恢复原价。\n3.\t新入网体验期赠送30GB国内定向流量（该流量不计入流量限速规则），900分钟省内主叫国内语音。\n4.\t30GB国内定向流量包括以下APP的国内流量：咪咕视频、咪咕直播、咪咕音乐、咪咕游戏、咪咕阅读、咪咕动漫、新浪微博、西瓜视频、今日头条、抖音、快手、搜狐视频、暴风影音、网易云音乐、爱奇艺、手机百度、百度地图、百度输入法、好看视频、百度贴吧、百度文库、百度翻译、百度糯米、百度百科、秒懂百科、哔哩哔哩、百度知道、优酷、芒果、PP视频。\n5.\t套餐外资费：国内通话按0.19元/分钟计费，全国被叫免费。\n6.\t本套餐流量不限量，其他流量不结转次月，不可叠加其他流量叠加包、加油包、分时包等。\n7.\t套餐中的“国内不含港澳台地区，手机上网流量”只适用于4G、3G、2G，不含WLAN（WIFI）上网。\n8.\t该活动与线下同产品资费的其他新入网促销活动均互斥，不能同时参与。\n9.\t定向流量使用范围：中国移动2G/3G/4G网络下，访问指定视频APP的特定视频内容（其中优酷视频流量包中不含土豆视频，IOS6.5.2或安卓6.5.1及之后版本的视频内容）\n但不包括以下内容：\n1、\t客户端启动、登录及客户端内的图片、文字、视频内插播广告、贪墨、第三方广告、主播类视频、在线观看/下载/缓存第三方视频等。\n2、\t手机处于国际或港澳台地区漫游状态下产生的流量。\n3、\t利用手机设置代理服务器或VPN等方式，访问APP所产生的流量。\n4、\t使用无线上网卡、平板电脑、CPE、MIFI等非手机设备产生的流量。\n5、\t手机作为热点使用产生的流量。\n",
+                "package_flage": false,
+                "package_offering_list": "[{\"actionType\":\"A\",\"offerCode\":\"pp.gt.fybxl_new.pre\",\"pofferCode\":\"\",\"offerType\":\"prod\"},{\"actionType\":\"A\",\"offerCode\":\"gl.base.xfyyy_70B.500\",\"pofferCode\":\"\",\"offerType\":\"prod\"},{\"actionType\":\"A\",\"offerCode\":\"gl.base.797118_70B.500\",\"pofferCode\":\"gl.base.xfyyy_70B.500\",\"offerType\":\"priv\"},{\"actionType\":\"A\",\"offerCode\":\"gl.base.797122B.500\",\"pofferCode\":\"gl.base.xfyyy_70B.500\",\"offerType\":\"priv\"},{\"actionType\":\"A\",\"offerCode\":\"gl.base.601848.500\",\"pofferCode\":\"pp.gt.fybxl_new.pre\",\"offerType\":\"priv\"},{\"actionType\":\"A\",\"offerCode\":\"gl.base.602110_797111.500\",\"pofferCode\":\"\",\"offerType\":\"priv\"}]"
+            },
+            {
+                "id": 5,
+                "mainpriv": "pp.gt.fybxl_new.pre",
+                "mainPrivName": "新飞跃不限量套2",
+                "gsm": "100分钟",
+                "gprs": "流量不限量",
+                "package_message": "1.\t当月使用流量达到10GB限速阈值后，上网速率降至1Mbps以下，次月恢复。当月流量 达100GB后，上网速率降至128Kbps以下，次月恢复。\n2.\t本套餐原价78元/月，新入网体验期（前12个月）48元/月，12个月后恢复原价。\n3.\t新入网体验期赠送30GB国内定向流量（该流量不计入流量限速规则），900分钟省内主叫国内语音。\n4.\t30GB国内定向流量包括以下APP的国内流量：咪咕视频、咪咕直播、咪咕音乐、咪咕游戏、咪咕阅读、咪咕动漫、新浪微博、西瓜视频、今日头条、抖音、快手、搜狐视频、暴风影音、网易云音乐、爱奇艺、手机百度、百度地图、百度输入法、好看视频、百度贴吧、百度文库、百度翻译、百度糯米、百度百科、秒懂百科、哔哩哔哩、百度知道、优酷、芒果、PP视频。\n5.\t套餐外资费：国内通话按0.19元/分钟计费，全国被叫免费。\n6.\t本套餐流量不限量，其他流量不结转次月，不可叠加其他流量叠加包、加油包、分时包等。\n7.\t套餐中的“国内不含港澳台地区，手机上网流量”只适用于4G、3G、2G，不含WLAN（WIFI）上网。\n8.\t该活动与线下同产品资费的其他新入网促销活动均互斥，不能同时参与。\n9.\t定向流量使用范围：中国移动2G/3G/4G网络下，访问指定视频APP的特定视频内容（其中优酷视频流量包中不含土豆视频，IOS6.5.2或安卓6.5.1及之后版本的视频内容）\n但不包括以下内容：\n1、\t客户端启动、登录及客户端内的图片、文字、视频内插播广告、贪墨、第三方广告、主播类视频、在线观看/下载/缓存第三方视频等。\n2、\t手机处于国际或港澳台地区漫游状态下产生的流量。\n3、\t利用手机设置代理服务器或VPN等方式，访问APP所产生的流量。\n4、\t使用无线上网卡、平板电脑、CPE、MIFI等非手机设备产生的流量。\n5、\t手机作为热点使用产生的流量。\n",
+                "package_flage": false,
+                "package_offering_list": "[{\"actionType\":\"A\",\"offerCode\":\"pp.gt.fybxl_new.pre\",\"pofferCode\":\"\",\"offerType\":\"prod\"},{\"actionType\":\"A\",\"offerCode\":\"gl.base.xfyyy_70B.500\",\"pofferCode\":\"\",\"offerType\":\"prod\"},{\"actionType\":\"A\",\"offerCode\":\"gl.base.797118_70B.500\",\"pofferCode\":\"gl.base.xfyyy_70B.500\",\"offerType\":\"priv\"},{\"actionType\":\"A\",\"offerCode\":\"gl.base.797122B.500\",\"pofferCode\":\"gl.base.xfyyy_70B.500\",\"offerType\":\"priv\"},{\"actionType\":\"A\",\"offerCode\":\"gl.base.601848.500\",\"pofferCode\":\"pp.gt.fybxl_new.pre\",\"offerType\":\"priv\"},{\"actionType\":\"A\",\"offerCode\":\"gl.base.602110_797111.500\",\"pofferCode\":\"\",\"offerType\":\"priv\"}]"
+            },
+            {
+                "id": 6,
+                "mainpriv": "pp.gt.fybxl_new.pre",
+                "mainPrivName": "新飞跃不限量套34",
+                "gsm": "100分钟",
+                "gprs": "流量不限量",
+                "package_message": "1.\t当月使用流量达到10GB限速阈值后，上网速率降至1Mbps以下，次月恢复。当月流量 达100GB后，上网速率降至128Kbps以下，次月恢复。\n2.\t本套餐原价78元/月，新入网体验期（前12个月）48元/月，12个月后恢复原价。\n3.\t新入网体验期赠送30GB国内定向流量（该流量不计入流量限速规则），900分钟省内主叫国内语音。\n4.\t30GB国内定向流量包括以下APP的国内流量：咪咕视频、咪咕直播、咪咕音乐、咪咕游戏、咪咕阅读、咪咕动漫、新浪微博、西瓜视频、今日头条、抖音、快手、搜狐视频、暴风影音、网易云音乐、爱奇艺、手机百度、百度地图、百度输入法、好看视频、百度贴吧、百度文库、百度翻译、百度糯米、百度百科、秒懂百科、哔哩哔哩、百度知道、优酷、芒果、PP视频。\n5.\t套餐外资费：国内通话按0.19元/分钟计费，全国被叫免费。\n6.\t本套餐流量不限量，其他流量不结转次月，不可叠加其他流量叠加包、加油包、分时包等。\n7.\t套餐中的“国内不含港澳台地区，手机上网流量”只适用于4G、3G、2G，不含WLAN（WIFI）上网。\n8.\t该活动与线下同产品资费的其他新入网促销活动均互斥，不能同时参与。\n9.\t定向流量使用范围：中国移动2G/3G/4G网络下，访问指定视频APP的特定视频内容（其中优酷视频流量包中不含土豆视频，IOS6.5.2或安卓6.5.1及之后版本的视频内容）\n但不包括以下内容：\n1、\t客户端启动、登录及客户端内的图片、文字、视频内插播广告、贪墨、第三方广告、主播类视频、在线观看/下载/缓存第三方视频等。\n2、\t手机处于国际或港澳台地区漫游状态下产生的流量。\n3、\t利用手机设置代理服务器或VPN等方式，访问APP所产生的流量。\n4、\t使用无线上网卡、平板电脑、CPE、MIFI等非手机设备产生的流量。\n5、\t手机作为热点使用产生的流量。\n",
+                "package_flage": false,
+                "package_offering_list": "[{\"actionType\":\"A\",\"offerCode\":\"pp.gt.fybxl_new.pre\",\"pofferCode\":\"\",\"offerType\":\"prod\"},{\"actionType\":\"A\",\"offerCode\":\"gl.base.xfyyy_70B.500\",\"pofferCode\":\"\",\"offerType\":\"prod\"},{\"actionType\":\"A\",\"offerCode\":\"gl.base.797118_70B.500\",\"pofferCode\":\"gl.base.xfyyy_70B.500\",\"offerType\":\"priv\"},{\"actionType\":\"A\",\"offerCode\":\"gl.base.797122B.500\",\"pofferCode\":\"gl.base.xfyyy_70B.500\",\"offerType\":\"priv\"},{\"actionType\":\"A\",\"offerCode\":\"gl.base.601848.500\",\"pofferCode\":\"pp.gt.fybxl_new.pre\",\"offerType\":\"priv\"},{\"actionType\":\"A\",\"offerCode\":\"gl.base.602110_797111.500\",\"pofferCode\":\"\",\"offerType\":\"priv\"}]"
+            },
+            {
+                "id": 7,
+                "mainpriv": "pp.gt.fybxl_new.pre",
+                "mainPrivName": "新飞跃不限量套2555",
+                "gsm": "100分钟",
+                "gprs": "流量不限量",
+                "package_message": "1.\t当月使用流量达到10GB限速阈值后，上网速率降至1Mbps以下，次月恢复。当月流量 达100GB后，上网速率降至128Kbps以下，次月恢复。\n2.\t本套餐原价78元/月，新入网体验期（前12个月）48元/月，12个月后恢复原价。\n3.\t新入网体验期赠送30GB国内定向流量（该流量不计入流量限速规则），900分钟省内主叫国内语音。\n4.\t30GB国内定向流量包括以下APP的国内流量：咪咕视频、咪咕直播、咪咕音乐、咪咕游戏、咪咕阅读、咪咕动漫、新浪微博、西瓜视频、今日头条、抖音、快手、搜狐视频、暴风影音、网易云音乐、爱奇艺、手机百度、百度地图、百度输入法、好看视频、百度贴吧、百度文库、百度翻译、百度糯米、百度百科、秒懂百科、哔哩哔哩、百度知道、优酷、芒果、PP视频。\n5.\t套餐外资费：国内通话按0.19元/分钟计费，全国被叫免费。\n6.\t本套餐流量不限量，其他流量不结转次月，不可叠加其他流量叠加包、加油包、分时包等。\n7.\t套餐中的“国内不含港澳台地区，手机上网流量”只适用于4G、3G、2G，不含WLAN（WIFI）上网。\n8.\t该活动与线下同产品资费的其他新入网促销活动均互斥，不能同时参与。\n9.\t定向流量使用范围：中国移动2G/3G/4G网络下，访问指定视频APP的特定视频内容（其中优酷视频流量包中不含土豆视频，IOS6.5.2或安卓6.5.1及之后版本的视频内容）\n但不包括以下内容：\n1、\t客户端启动、登录及客户端内的图片、文字、视频内插播广告、贪墨、第三方广告、主播类视频、在线观看/下载/缓存第三方视频等。\n2、\t手机处于国际或港澳台地区漫游状态下产生的流量。\n3、\t利用手机设置代理服务器或VPN等方式，访问APP所产生的流量。\n4、\t使用无线上网卡、平板电脑、CPE、MIFI等非手机设备产生的流量。\n5、\t手机作为热点使用产生的流量。\n",
+                "package_flage": false,
+                "package_offering_list": "[{\"actionType\":\"A\",\"offerCode\":\"pp.gt.fybxl_new.pre\",\"pofferCode\":\"\",\"offerType\":\"prod\"},{\"actionType\":\"A\",\"offerCode\":\"gl.base.xfyyy_70B.500\",\"pofferCode\":\"\",\"offerType\":\"prod\"},{\"actionType\":\"A\",\"offerCode\":\"gl.base.797118_70B.500\",\"pofferCode\":\"gl.base.xfyyy_70B.500\",\"offerType\":\"priv\"},{\"actionType\":\"A\",\"offerCode\":\"gl.base.797122B.500\",\"pofferCode\":\"gl.base.xfyyy_70B.500\",\"offerType\":\"priv\"},{\"actionType\":\"A\",\"offerCode\":\"gl.base.601848.500\",\"pofferCode\":\"pp.gt.fybxl_new.pre\",\"offerType\":\"priv\"},{\"actionType\":\"A\",\"offerCode\":\"gl.base.602110_797111.500\",\"pofferCode\":\"\",\"offerType\":\"priv\"}]"
+            },
+            {
+                "id": 8,
+                "mainpriv": "4GFX",
+                "mainPrivName": "4G飞享套餐",
+                "gsm": "100分钟",
+                "gprs": "2GB",
+                "package_message": "1.\t当月使用流量达到10GB限速阈值后，上网速率降至1Mbps以下，次月恢复。当月流量 达100GB后，上网速率降至128Kbps以下，次月恢复。\n2.\t本套餐原价78元/月，新入网体验期（前12个月）48元/月，12个月后恢复原价。\n3.\t新入网体验期赠送30GB国内定向流量（该流量不计入流量限速规则），900分钟省内主叫国内语音。\n4.\t30GB国内定向流量包括以下APP的国内流量：咪咕视频、咪咕直播、咪咕音乐、咪咕游戏、咪咕阅读、咪咕动漫、新浪微博、西瓜视频、今日头条、抖音、快手、搜狐视频、暴风影音、网易云音乐、爱奇艺、手机百度、百度地图、百度输入法、好看视频、百度贴吧、百度文库、百度翻译、百度糯米、百度百科、秒懂百科、哔哩哔哩、百度知道、优酷、芒果、PP视频。\n5.\t套餐外资费：国内通话按0.19元/分钟计费，全国被叫免费。\n6.\t本套餐流量不限量，其他流量不结转次月，不可叠加其他流量叠加包、加油包、分时包等。\n7.\t套餐中的“国内不含港澳台地区，手机上网流量”只适用于4G、3G、2G，不含WLAN（WIFI）上网。\n8.\t该活动与线下同产品资费的其他新入网促销活动均互斥，不能同时参与。\n9.\t定向流量使用范围：中国移动2G/3G/4G网络下，访问指定视频APP的特定视频内容（其中优酷视频流量包中不含土豆视频，IOS6.5.2或安卓6.5.1及之后版本的视频内容）\n但不包括以下内容：\n1、\t客户端启动、登录及客户端内的图片、文字、视频内插播广告、贪墨、第三方广告、主播类视频、在线观看/下载/缓存第三方视频等。\n2、\t手机处于国际或港澳台地区漫游状态下产生的流量。\n3、\t利用手机设置代理服务器或VPN等方式，访问APP所产生的流量。\n4、\t使用无线上网卡、平板电脑、CPE、MIFI等非手机设备产生的流量。\n5、\t手机作为热点使用产生的流量。\n",
+                "package_flage": false,
+                "package_offering_list": "[{ \"actionType\":\"A\",\"offerCode\":\"TDLTE_4G.post\",\"pofferCode\":\"\",\"offerType\":\"prod\"},{\"actionType\":\"A\",\"offerCode\":\"pp.gt.lte_4g.post\",\"pofferCode\":\"TDLTE_4G.post\",\"offerType\":\"priv\"}]"
+            },
+            {
+                "id": 9,
+                "mainpriv": "4GFX",
+                "mainPrivName": "4G飞享套餐",
+                "gsm": "100分钟",
+                "gprs": "2GB",
+                "package_message": "1.\t当月使用流量达到10GB限速阈值后，上网速率降至1Mbps以下，次月恢复。当月流量 达100GB后，上网速率降至128Kbps以下，次月恢复。\r\n2.\t本套餐原价78元/月，新入网体验期（前12个月）48元/月，12个月后恢复原价。\r\n3.\t新入网体验期赠送30GB国内定向流量（该流量不计入流量限速规则），900分钟省内主叫国内语音。\r\n4.\t30GB国内定向流量包括以下APP的国内流量：咪咕视频、咪咕直播、咪咕音乐、咪咕游戏、咪咕阅读、咪咕动漫、新浪微博、西瓜视频、今日头条、抖音、快手、搜狐视频、暴风影音、网易云音乐、爱奇艺、手机百度、百度地图、百度输入法、好看视频、百度贴吧、百度文库、百度翻译、百度糯米、百度百科、秒懂百科、哔哩哔哩、百度知道、优酷、芒果、PP视频。\r\n5.\t套餐外资费：国内通话按0.19元/分钟计费，全国被叫免费。\r\n6.\t本套餐流量不限量，其他流量不结转次月，不可叠加其他流量叠加包、加油包、分时包等。\r\n7.\t套餐中的“国内不含港澳台地区，手机上网流量”只适用于4G、3G、2G，不含WLAN（WIFI）上网。\r\n8.\t该活动与线下同产品资费的其他新入网促销活动均互斥，不能同时参与。\r\n9.\t定向流量使用范围：中国移动2G/3G/4G网络下，访问指定视频APP的特定视频内容（其中优酷视频流量包中不含土豆视频，IOS6.5.2或安卓6.5.1及之后版本的视频内容）\r\n但不包括以下内容：\r\n1、\t客户端启动、登录及客户端内的图片、文字、视频内插播广告、贪墨、第三方广告、主播类视频、在线观看/下载/缓存第三方视频等。\r\n2、\t手机处于国际或港澳台地区漫游状态下产生的流量。\r\n3、\t利用手机设置代理服务器或VPN等方式，访问APP所产生的流量。\r\n4、\t使用无线上网卡、平板电脑、CPE、MIFI等非手机设备产生的流量。\r\n5、\t手机作为热点使用产生的流量。",
+                "package_flage": false,
+                "package_offering_list": "[{\"actionType\":\"A\",\"offerCode\":\"TDLTE_4G.post\",\"pofferCode\":\"\",\"offerType\":\"prod\"},{\"actionType\":\"A\",\"offerCode\":\"pp.gt.lte_4g.post\",\"pofferCode\":\"TDLTE_4G.post\",\"offerType\":\"priv\"}]"
+            }
+        ],
+        "token": "28805071fae1cbd25aec311aa76c9e78"
+    },
+    "isLeaf": true
+}

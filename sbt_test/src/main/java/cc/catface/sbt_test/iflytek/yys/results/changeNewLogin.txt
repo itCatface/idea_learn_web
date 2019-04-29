@@ -1,0 +1,120 @@
+{
+    "message": "操作成功",
+    "code": "0",
+"data": {
+"ext": {
+            "verifyIdFlag": "1"
+        },
+        "activeCount": 3,
+        "userInfo": {
+            "resacct": "xielinxian",
+            "mainLoginName": "7CBC69EA93AC5C2F2B0CD5656E367998",
+            "userNum": "15957524678",
+            "isSecret": true,
+            "opCountyCode": "5714",
+            "opId": "20039622",
+            "opRegionCode": "571",
+            "retinfo": "操作成功",
+            "rsp": "0",
+            "orgId": "40055307",
+            "sessId": "f95nwl5w5slhxctvp8i2lauqchoq0oht",
+            "retcode": "0"
+        },
+        "rc": "0",
+       "busiInfo": [
+            {
+                "busiId": "949a91f25af0018e015af3e4ec9b0044",
+                "packageId": "949a91f261036e760161041af3fa000f",
+                "brandCode": "2222000",
+                "busiName": "安徽中国移动公司-合肥分公司",
+                "busiContent": "1122222222222222222222222222222222222222222222222222222222222222222222222你好你好＃@￥%234444444444444444444444444444444444444444444444444444444444444444444444444444444444436576576745777777777777777777777775676876875台5",
+                "imgUrl": "http://111.39.232.39:8022/image/\\1521688048151.png",
+                "packageCost": "0"
+            },
+            {
+                "busiId": "8ace47b960c211620160d3be069a12cf",
+                "packageId": "8ace47b960e0a1660160f87c0bbb47ff",
+                "brandCode": "600000314820",
+                "busiName": "4G飞享套餐元",
+                "busiContent": "开卡",
+                "imgUrl": "http://111.39.232.39:8022/image/\\1519532180856.png",
+                "packageCost": "0"
+            },
+            {
+                "busiId": "8ace47ba6176c06f0161bc8d0cda0f7d",
+                "packageId": "8ace47b960e0a1660160f87c0bbb47ff",
+                "brandCode": "600000314820",
+                "busiName": "全省爱看轻松卡28元",
+                "busiContent": "1.8ace47b960e0a1730160f884cd9859f9\n2.8ace47b960e0a1730160f884cd9859f9\n3.8ace47b960e0a1730160f884cd9859f9\n4.8ace47b960e0a1730160f884cd9859f9\n5.8ace47b960e0a1730160f884cd9859f9",
+                "imgUrl": "http://111.39.232.39:8022/image/\\1519528553155.png",
+                "packageCost": "0"
+            }
+        ],
+"channelInfo": {
+            "isHiddenMenu": "false"
+        },
+        "cityInfo": {
+            "regionName": "杭州",
+            "provinceName": "浙江",
+            "countyName": "余杭"
+        },
+        "active": "1",
+        "userExt": {
+            "qrAlipay": "1519535945413.jpg",
+            "qrWx": "1519535945426.jpg",
+            "cardNo": "34012319920830111X",
+            "username": "tiger",
+            "status": 1,
+            "name": "唐婷",
+            "orgId": "acbce67d-ed47-4e28-a561-918bfb9910c5",
+              "userCardList": [
+                {
+                    "userCard": "342623199301018174",
+                    "status": "1"
+                },
+                {
+                    "userCard": "34012319920830111X",
+                    "status": "1"
+                },
+                {
+                    "userCard": "321283199310101826",
+                    "status": "1"
+                },
+                {
+                    "userCard": "340824199109082243",
+                    "status": "1"
+                },
+                {
+                    "userCard": "321283199310101826",
+                    "status": "1"
+                },
+                {
+                    "userCard": "321283199310101826",
+                    "status": "1"
+                },
+                {
+                    "userCard": "340122199508076210",
+                    "status": "1"
+                },
+                {
+                    "userCard": "321283199310101826",
+                    "status": "1"
+                },
+                {
+                    "userCard": "321283199310101826",
+                    "status": "1"
+                },
+                {
+                    "userCard": "341125199611297409",
+                    "status": "1"
+                },
+                {
+                    "userCard": "342224199102100292",
+                    "status": "1"
+                }
+            ]
+        },
+        "totalCount": 20
+    },
+    "isLeaf": true
+}

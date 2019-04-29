@@ -1,0 +1,18 @@
+{
+    "bill_id":"13454582424",
+    "acct_book_balance":"3762.32",
+    "acct_type":"0",
+    "errorCode":"0",
+    "mobile_blance":"3791.32",
+    "instant_fee":"0.0",
+    "errorMsg":"账户余额查询成功！",
+    "bank_card_blance":"0",
+    "errorHint":"账户余额查询成功！",
+    "owe_amount":"0.0",
+    "isSecret":true,
+    "nowuse_amount":"3791.32",
+    "cust_name":"null",
+    "pay_type":"0",
+    "retinfo":"成功！",
+    "retcode":"0"
+}

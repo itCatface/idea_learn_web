@@ -1,0 +1,41 @@
+{
+	"code": 200,
+	"data": {
+		"PARAM": {
+			"key_info": "key_info",
+			"region_id": "11",
+			"login_no": "Y10086RBT",
+			"group_id": "122000141",
+			"signFlag": "1",
+			"picFlag": "N",
+			"iccidFlag": "1",
+			"protocolFlag": "N",
+			"isEflag": "N",
+			"brand_id": "003",
+			"brand": "神州行",
+			"copy_flag": "0",
+			"cust_name": "＊＊佳",
+			"id_card": "3411**********7019",
+			"op_time": "20180621104104",
+			"org_info": "122000141",
+			"phone": "18855182402",
+			"prc_name": "4G飞享18元（2018版）",
+			"serv_id": "11310009679279",
+			"verify_mode": "",
+			"work_name": "讯飞",
+			"work_no": "Y10086RBT",
+			"business_seq": "O18060900880009",
+			"optime_seq": "optime_seq",
+			"op_code": "1104",
+			"mbill_seq": "",
+			"agm_id": "11",
+			"agm_flag": "0",
+			"order_id": "S18060900940009",
+			"sys_accept": "30001633890009",
+			"busi_detail": "业务种类：正常换卡|工单流水：30001633891393|业务名称：正常换卡|活动信息：原卡类型：4GUSIM卡|新SIM卡类型：128K全球通一卡双号OTA卡|详细内容：免费补换卡"
+		},
+		"URL": "http://120.193.84.12:9900/phoneHandle.go?method=init&param={0}"
+	},
+	"isLeaf": true,
+	"message": "操作成功"
+}

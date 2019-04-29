@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Title</title>
+</head>
+<body>
+
+<div style="width:500px;border:1px solid lightgray;margin:200px auto;padding:80px">
+
+    当前系统出现异常--><div th:text="${exception}">exception</div>
+    <br><br>
+    当前异常地址--><div th:text="${url}">url</div>
+</div>
+
+</body>
+</html>

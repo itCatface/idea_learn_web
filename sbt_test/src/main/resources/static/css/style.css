@@ -1,0 +1,36 @@
+div.showing {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid purple;
+    padding: 30px;
+}
+
+div {
+    font-style: italic;
+    color: purple;
+}
+
+.even {
+    background-color: red;
+}
+
+.odd {
+    background-color: green;
+}
+
+p {
+    color: green;
+}
+
+/* jquery使用到的css */
+.pink {
+    background-color: pink;
+}
+
+.green {
+    background-color: green;
+}
+
+.border {
+    border: 1px blue solid;
+}

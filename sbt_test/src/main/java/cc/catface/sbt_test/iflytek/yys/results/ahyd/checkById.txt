@@ -1,0 +1,31 @@
+{
+    "code": 200,
+    "message": "操作成功",
+    "data": {
+        "BALANCE": "16.41",
+        "CURMONTHLEFTFEE": "16.41",
+        "AVAILABLEFEE": "36.41",
+        "PREFAVFEE": "0.00",
+        "ISGROUP": "",
+        "TOTALINSTANTFEETRAFFIC": "0.00",
+        "ADDCREDIT": "0.00",
+        "CURMONTHTOTALBALANCE": "16.41",
+        "CURRENT_RETPAY": "0.00",
+        "STARCREDIT": "20.00",
+        "TOTALINSTANTFEE": "0.00",
+        "TOTALREBATEDLATEFEESUM": "0.00",
+        "CHRGAMOUNT": "0.00",
+        "VIRBALANCE": "16.41",
+        "BASECREDIT": "0.00",
+        "CURMONTHCHARGESUM": "0.00",
+        "LASTMONTHLEFTFEE": "16.41",
+        "OVERFEE": "20.00",
+        "TOTALUNCHARGEDSUM": "0.00",
+        "REALAMOUNT": "0.00",
+        "OTHERFEE": "0.00",
+        "CURMONTHUSEDFEE": "0.00",
+        "LEASTCHARGETIME": "2018/04/0416:39:15",
+        "LEASTCHARGESUM": "50.0"
+    },
+    "isLeaf": true
+}

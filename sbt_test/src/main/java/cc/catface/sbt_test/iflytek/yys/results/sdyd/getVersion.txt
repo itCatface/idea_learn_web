@@ -1,0 +1,1 @@
+{"code":"0","data":{"version":"1111","status":"1","url":"http://172.16.52.118:8080/test/download/mobile_shandong_1.0.1009.apk","md5":"51d56e5cfe785ec183b37e4339e524cd"}}

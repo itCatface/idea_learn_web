@@ -1,0 +1,23 @@
+{
+    "message": "操作成功",
+    "code": "0",
+    "data": [
+        {
+            "id": 9,
+            "levelName": "qwqw",
+            "levelId": "w2",
+            "idActivity": 3,
+            "bindingCycle": "e",
+            "levelContext": "e"
+        },
+        {
+            "id": 10,
+            "levelName": "qwer",
+            "levelId": "w1",
+            "idActivity": 3,
+            "bindingCycle": "e",
+            "levelContext": "e"
+        }
+    ],
+    "isLeaf": true
+}
